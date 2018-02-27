@@ -13,4 +13,6 @@ Gem::Specification.new do |s|
   
   s.add_dependency 'docx'
   s.add_dependency 'html_writer'
+  
+  s.require_paths = ["lib"]
 end
