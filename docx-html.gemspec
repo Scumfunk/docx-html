@@ -7,10 +7,10 @@ Gem::Specification.new do |s|
   s.summary     = 'convert .docx files into html'
   s.description = s.summary
   s.author      = 'Marcus Ortiz'
-  s.email       = 'mportiz08@gmail.com'
-  s.homepage    = 'https://github.com/mportiz08/docx-html'
+  s.email       = 'yuryivannikov@yandex.ru'
+  s.homepage    = 'https://github.com/scumfunk/docx-html'
   s.files       = Dir["README.md", "LICENSE.md", "lib/**/*.rb"]
   
-  s.add_dependency 'docx',        '~> 0.1.0'
+  s.add_dependency 'docx',        '>= 0.1.0'
   s.add_dependency 'html_writer', '~> 0.1.0'
 end
