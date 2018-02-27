@@ -11,8 +11,8 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/scumfunk/docx-html'
   s.files       = Dir["README.md", "LICENSE.md", "lib/**/*.rb"]
   
-  s.add_dependency 'docx'
-  s.add_dependency 'html_writer'
+  s.add_runtime_dependency 'docx'
+  s.add_runtime_dependency 'html_writer'
   
   s.require_paths = ["lib"]
 end
