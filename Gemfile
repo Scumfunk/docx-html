@@ -1,2 +1,4 @@
 source 'https://rubygems.org'
-gemspec
+#gemspec
+gem 'html_writer'
+gem 'html'
