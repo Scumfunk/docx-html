@@ -1,5 +1,5 @@
 $:.push File.expand_path("../lib", __FILE__)
-require 'lib/docx/html'
+require 'docx/html'
 
 Gem::Specification.new do |s|
   s.name        = 'docx-html'
