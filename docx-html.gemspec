@@ -1,9 +1,9 @@
 $:.push File.expand_path("../lib", __FILE__)
-require 'docx/html'
+#require 'docx/html'
 
 Gem::Specification.new do |s|
   s.name        = 'docx-html'
-  s.version     = Docx::Html::VERSION
+  s.version     = 0.1.1
   s.summary     = 'convert .docx files into html'
   s.description = s.summary
   s.author      = 'Marcus Ortiz'
